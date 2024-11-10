@@ -1,0 +1,59 @@
+/* components/blog.css */
+
+.blog-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .blog-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #282c34;
+  }
+  
+  .blog-section {
+    margin-bottom: 30px;
+  }
+  
+  .blog-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #007bff; 
+  }
+  
+  .blog-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .blog-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .blog-section ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .blog-title {
+      font-size: 2rem;
+    }
+  
+    .blog-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .blog-section p,
+    .blog-section ul li {
+      font-size: 1rem;
+    }
+  }
+  
